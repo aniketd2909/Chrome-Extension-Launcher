@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "A.D Launcher",
+  "description": "Quick launch sites",
+  "version": "1.0.0",
+  "icons": { "256": "favicondefault.png" },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
